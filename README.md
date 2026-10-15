@@ -7,8 +7,8 @@ HTML, CSS and JavaScript. It needs no framework and no build step.
 - `styles.css` — styles; all brand colours and fonts are in the `:root` token block at the top
 - `script.js` — interactions
 
-Open `index.html` through any static server (e.g. `python3 -m http.server` in this folder), or run `npm run dev`
-from the repo root and visit `/ptsi/`.
+Open `index.html` through any static server (e.g. `python3 -m http.server` in this folder). On Vercel, deploy
+with the **Other** preset, root directory `./` and an empty build command.
 
 ## Before going live
 
