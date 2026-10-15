@@ -16,8 +16,10 @@ with the **Other** preset, root directory `./` and an empty build command.
    values from ptsiphil.com, and update the Google Fonts `<link>` in `index.html` to match.
 2. **Images** — every `<img src="/api/placeholder/W/H" data-label="…">` is a slot for an original photo. Until a real
    `src` is set, `script.js` draws a dashed box showing the label and size. Each slot also has an
-   `<!-- INSERT: … -->` comment above it. The slots are: header logo, hero banner, About Us photo, 10 partner logos,
-   6 award graphics, 3 client avatars and the footer logo.
+   `<!-- INSERT: … -->` comment above it. The remaining slots are: header logo, hero banner, About Us photo,
+   3 client avatars and the footer logo. Partner logos (`images/partners/`, 25) and award photos
+   (`images/awards/`, 16, with captions) are already in place; swap in higher-resolution files with the same names
+   for sharper results.
 3. **Copy** — comments marked `<!-- REPLACE: … -->` (About Us text, client reviews) and `<!-- VERIFY: … -->`
    (phone number, office address) still hold sample or placeholder text.
 
